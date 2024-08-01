@@ -7,6 +7,8 @@
 ### Added
 
 - CHANGELOG.md
+- CODE_OF_CONDUCT.md
+- GOVERNANCE.md
 
 ## [1.0.1]
 
