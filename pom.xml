@@ -13,6 +13,7 @@
     <connection>scm:git:https://github.com/jamilservices/component-id-generator.git</connection>
     <developerConnection>scm:git:https://github.com/jamilservices/component-id-generator.git</developerConnection>
     <url>https://github.com/jamilservices/component-id-generator</url>
+    <tag>main</tag>
   </scm>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
