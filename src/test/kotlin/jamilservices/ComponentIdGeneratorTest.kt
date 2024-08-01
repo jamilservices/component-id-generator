@@ -23,7 +23,7 @@
  * THE SOFTWARE.
  * #L%
  */
-import com.jamilservices.ComponentIdGenerator
+import com.jamilservices.JComponentIdGenerator
 import org.junit.Test
 import kotlin.test.assertEquals
 
@@ -34,7 +34,7 @@ import java.util.UUID
 
 import com.google.gson.Gson
 
-class ComponentIdGeneratorTest {
+class JComponentIdGeneratorTest {
 
     @Test
     fun `tthis generation of IDs for components`() {
@@ -44,7 +44,7 @@ class ComponentIdGeneratorTest {
 
         val outputFile = File("output.json")
 
-        ComponentIdGenerator.main(arrayOf("input.json", "output.json"))
+        JComponentIdGenerator.main(arrayOf("input.json", "output.json"))
 
         val outputJson = outputFile.readText()
         val gson = Gson()

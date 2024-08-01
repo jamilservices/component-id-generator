@@ -33,7 +33,7 @@ import java.util.UUID
 /**
  * Class responsible for generating unique IDs for components from an input JSON file.
  */
-class ComponentIdGenerator {
+class JComponentIdGenerator {
 
     companion object {
         /**
